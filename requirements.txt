@@ -1,0 +1,9 @@
+librosa
+numpy
+Keras
+h5py
+matplotlib
+sklearn
+scikit-learn
+tensorflow
+tensorflow-gpu
