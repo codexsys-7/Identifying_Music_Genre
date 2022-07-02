@@ -12,6 +12,9 @@ So, the approach we have taken to run/execute this project is by using Transfer 
 
 ![VGG16](https://neurohive.io/wp-content/uploads/2018/11/vgg16-neural-network.jpg)
 
+_**Reference**_
++ http://aishelf.org/vgg-transfer-learning/
+
 # _**How to Execute?**_
 So, before execution we have some pre-requisites that we need to download or install i.e., anaconda environment, python and a code editor.
 **Anaconda**: Anaconda is like a package of libraries and offers a great deal of information which allows a data engineer to create multiple environments and install required libraries easy and neat.
@@ -79,7 +82,7 @@ Now you are ready to use jupyter on this environment and start with your project
 2. open anaconda prompt and create a new environment.
   - conda create -n "env_name"
   - conda activate "env_name"
-**If you face any issue while setting up, please feel free to click on the below link to get more detailed explanation.
+**If you face any issue while setting up, please feel free to click on the below link given in the issues section at the bottom to get more detailed explanation.
 3. Install necessary libraries from requirements.txt file provided.
 4. Run pip install -r requirements.txt or conda install requirements.txt (Requirements.txt is a text file consisting of all the necessary libraries required for executing this python file. If it gives any error while installing libraries, you might need to install them individually.)
 5. Run classification_cnn_vgg.ipynb final code, and make sure to change the path of the model and dataset loading folders.
